@@ -1,0 +1,26 @@
+ .landing-page {
+  /* Basic styles for the landing page */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(/ibmfinalproject/src/assets/ChatGPT\ Image\ Sep\ 24\,\ 2025\,\ 08_29_16\ PM.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.landing-page h1, .landing-page p {
+  color: #fff;
+}
+
+.get-started-btn {
+  margin-top: 20px;
+  padding: 10px 24px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
